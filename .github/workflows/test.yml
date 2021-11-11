@@ -1,0 +1,15 @@
+name: 'HTML Preview Action'
+on: [pull_request]
+
+jobs:
+  html_preview:
+    runs-on: ubuntu-latest
+    name: HTML Preview
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get HTML preview link
+        id: html_preview
+        uses: pavi2410/html-preview-action@v2
+        with:
+          html_file: 'index.html'
+          message: ${{ format(steps.html_preview.outputs.url) }}
