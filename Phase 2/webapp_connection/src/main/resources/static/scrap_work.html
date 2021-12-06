@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>You first Spring application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/add" method="POST">
+    <p>for demo</p>
+
+    <div>
+        <label for="name">item name:</label>
+        <input name="name" id="name" value="banana">
+    </div>
+    <div>
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" value=1>
+    </div>
+    <div>
+        <button>Add item</button>
+    </div>
+</form>
+
+<form action="/remove" method="POST">
+    <div>
+        <label for="index">index:</label>
+        <input type="number" id="index">
+    </div>
+    <button>remove item</button>
+</form>
+
+<form action="/list" method="GET">
+    <button>List items</button>
+</form>
+
+</body>
+</html>

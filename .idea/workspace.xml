@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77456e14-7f31-42f1-be03-a91167771aea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/course-project-Super-Jumbo-AAAA-Batteries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/course-project-Super-Jumbo-AAAA-Batteries.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase 2/src/main/java/driver/Gyst.java" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 2/src/main/java/driver/Gyst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phase 2/src/resources/inventory_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Phase 2/src/resources/inventory_list.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Phase 2/src/main/java/login_system" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Phase 2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,7 +53,7 @@
       <recent name="C:\Users\jenni\OneDrive\Desktop\Uni\Second Year\Fall\CSC207\course-project-Super-Jumbo-AAAA-Batteries\Phase 1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Gyst">
     <configuration name="Gyst" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -87,8 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Gyst" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +108,7 @@
       <workItem from="1638393178723" duration="4069000" />
       <workItem from="1638398192595" duration="2726000" />
       <workItem from="1638583803523" duration="598000" />
+      <workItem from="1638751156042" duration="386000" />
     </task>
     <servers />
   </component>
