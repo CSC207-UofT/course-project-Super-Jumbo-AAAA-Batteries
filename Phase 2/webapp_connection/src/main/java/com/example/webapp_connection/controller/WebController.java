@@ -10,6 +10,9 @@ import controller.ListManager;
 import driver.LogInSystem;
 import gateway.LoadingManager;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+
 @RestController
 public class WebController {
     String currentUser;
@@ -23,17 +26,36 @@ public class WebController {
     @PostMapping("/add")
     public String addItemToShoppingList(@RequestParam String name, @RequestParam int quantity) {
         listManager.addShoppingListItem(name, quantity);
-        return "Successfully added the item to the list.";
+        return "Successfully added the item to your shopping list.";
     }
 
     @PostMapping("/remove")
     public String RemoveItemFromShoppingList(@RequestParam int index) {
         listManager.removeShoppingListItem(index);
-        return "Successfully removed the item from the list.";
+        return "Successfully removed the item from your shopping list.";
     }
 
     @GetMapping("/list")
     public String getShoppingListItems() {
         return listManager.printShoppingList();
     }
+
+    @PostMapping("/add_inventory")
+    public String addItemToInventoryList(@RequestParam String name, @RequestParam int quantity, @RequestParam String expiryDate) {
+        listManager.addInventoryItem(name, quantity, expiryDate);
+        return "Successfully added the item to your inventory list.";
+    }
+
+    @PostMapping("/remove_inventory")
+    public String RemoveItemFromInventoryList(@RequestParam int index) {
+        listManager.removeInventoryItem(index);
+        return "Successfully removed the item from your inventory list.";
+    }
+
+    @GetMapping("/list_inventory")
+    public String getInventoryListItems() {
+        return listManager.printInventory();
+    }
+
+
 }
